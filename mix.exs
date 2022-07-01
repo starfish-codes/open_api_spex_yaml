@@ -50,6 +50,7 @@ defmodule OpenApiSpexYaml.MixProject do
   defp deps do
     [
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
+      {:ex_doc, "~> 0.1", only: :dev, runtime: false},
       {:jason, "~> 1.0", only: [:dev, :test]},
       {:open_api_spex, "~> 3.0"},
       {:ymlr, "~> 2.0"}
